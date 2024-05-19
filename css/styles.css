@@ -1,0 +1,78 @@
+:root {
+  --brand-color: #4d5ae5;
+  --press-state: #404bbf;
+  --overlays-headings: #2e2f42;
+  --success: #31d0aa;
+  --body-text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --modal-background: #fcfcfc;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto, sans-serif;
+}
+h1 {
+  font-weight: bold;
+  font-size: 56px;
+  letter-spacing: 2%;
+  line-height: 60px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 2%;
+}
+
+button {
+  font-size: 16px;
+  letter-spacing: 4%;
+  background-color: var(--brand-color);
+}
+
+button:hover {
+  background: var(--press-state);
+}
+
+a {
+  font-size: 12px;
+  text-decoration: none;
+}
+a:hover {
+  color: var(--press-state);
+}
+ul {
+  list-style: none;
+  appearance: none;
+  padding: 0;
+}
+
+/* li:active,
+li:hover {
+  color: var(--press-state);
+  text-decoration: underline;
+} */
+
+.container {
+  /* width: 1375px;
+  margin: 0 auto;
+  padding: 0 32px; */
+
+  max-width: 1375px;
+  margin: 0 auto;
+  padding: 0 32px;
+
+  outline: 2px dashed #f44336;
+}
