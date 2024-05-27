@@ -1,43 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head >
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-      <link rel="stylesheet" href="./css/styles.css" />
-            <link rel="stylesheet" href="./css/header.css" />
-                   <link rel="stylesheet" href="./css/main.css" />
-                    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main_page/header.css" />
+    <link rel="stylesheet" href="./css/main_page//main.css" />
+    <link rel="stylesheet" href="./css/main_page//footer.css" />
     <title>WebStudio</title>
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header  class="container">
-      <div  class="nav-container" >
-        <a href="/"><img class= "logo"src="/images/Logo.svg" alt="" /></a>
-      <nav class="nav-container">
-        <ul class="nav-list">          
-          <li><a href="/"></a>Studio</li>
-          <li><a href="/"></a>Portfolio</li>
-          <li><a href="/"></a>Contacts</li>
-        </ul>
-        <ul class="nav-list">
+    <header class="container header-page">
+      <div class="header-page-container">
+        <nav class="page-nav">
+          <a class="logo" href="/"
+            ><img
+              class="logo-img"
+              src="/images/Logo.svg"
+              alt="logo"
+              width="115px"
+              height="24px"
+          /></a>
+          <ul class="nav-list">
+            <li><a href="/"></a>Studio</li>
+            <li><a href="/"></a>Portfolio</li>
+            <li><a href="/"></a>Contacts</li>
+          </ul>
+        </nav>
+        <ul class="nav-contacts">
           <li><a href="mailto:info@devstudio.com"></a>info@devstudio.com</li>
           <li><a href="tel:+11 (000) 111-11-11"></a>+11 (000) 111-11-11</li>
-        </ul></div>
-      </nav>
-    </header>
-    <main  >
-      <div class="hero">
- <h1 class="hero-title">
-          Effective Solutions<br />
-          for Your Business
-        </h1>
-        <button class="hero-btn" type="button">Order Service<a href="/"></a></button>
+        </ul>
       </div>
+    </header>
+    <main>
+      <div class="hero">
+        <div class="container">
+          <h1 class="hero-title">
+            Effective Solutions<br />
+            for Your Business
+          </h1>
+          <button class="hero-btn" type="button">
+            Order Service<a href="/"></a>
+          </button>
+        </div>
+      </div>
+
       <div>
         <ul class="advantages-list">
           <li>
@@ -92,48 +108,44 @@
         <h2 class="team-title">Our Team</h2>
         <ul class="team-list">
           <li>
-              <img src="/images/team/Mark.png" alt="Mark" width="264" />
-              <div class="team-descr">
-                <h4>Mark Guerrero</h4>
-                <p>Product Designer</p>
-              </div>
-
+            <img src="/images/team/Mark.png" alt="Mark" width="264" />
+            <div class="team-descr">
+              <h4>Mark Guerrero</h4>
+              <p>Product Designer</p>
+            </div>
           </li>
           <li>
-
-              <img src="/images/team/Tom.png" alt="Mark" width="264" />
-              <div class="team-descr">
-                <h4>Tom Ford</h4>
-                <p>Frontend Developer</p>
-              </div>
-
+            <img src="/images/team/Tom.png" alt="Mark" width="264" />
+            <div class="team-descr">
+              <h4>Tom Ford</h4>
+              <p>Frontend Developer</p>
+            </div>
           </li>
           <li>
-
-              <img src="/images/team/Camila.png" alt="Mark" width="264" />
-              <div class="team-descr">
-                <h4>Camila Garcia</h4>
-                <p>Marketing</p>
-              </div>
-
+            <img src="/images/team/Camila.png" alt="Mark" width="264" />
+            <div class="team-descr">
+              <h4>Camila Garcia</h4>
+              <p>Marketing</p>
+            </div>
           </li>
           <li>
-
-              <img src="/images/team/Daniel.png" alt="Mark" width="264" />
-              <div class="team-descr">
-                <h4>Daniel Wilson</h4>
-                <p>UI Designer</p>
-              </div>
-
+            <img src="/images/team/Daniel.png" alt="Mark" width="264" />
+            <div class="team-descr">
+              <h4>Daniel Wilson</h4>
+              <p>UI Designer</p>
+            </div>
           </li>
         </ul>
       </div>
     </main>
     <footer class="footer">
-        <div  class=" container footer-block">
-            <img src="/images/LogoW.svg" alt="Logo">
-            <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
-        </div>
+      <div class="container footer-block">
+        <img src="/images/LogoW.svg" alt="Logo" />
+        <p>
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

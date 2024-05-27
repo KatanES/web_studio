@@ -40,6 +40,7 @@ button {
   font-size: 16px;
   letter-spacing: 4%;
   background-color: var(--brand-color);
+  cursor: pointer;
 }
 
 button:hover {
@@ -50,29 +51,22 @@ a {
   font-size: 12px;
   text-decoration: none;
 }
-a:hover {
+/* a:hover {
   color: var(--press-state);
-}
+  cursor: pointer;
+} */
 ul {
   list-style: none;
   appearance: none;
   padding: 0;
 }
 
-/* li:active,
-li:hover {
-  color: var(--press-state);
-  text-decoration: underline;
-} */
-
 .container {
-  /* width: 1375px;
-  margin: 0 auto;
-  padding: 0 32px; */
-
-  max-width: 1375px;
-  margin: 0 auto;
-  padding: 0 32px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 
   outline: 2px dashed #f44336;
 }

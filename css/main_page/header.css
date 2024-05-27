@@ -1,0 +1,43 @@
+.header-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-page {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.page-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  gap: 45px;
+}
+
+.nav-list > li:hover,
+nav.list > li:active {
+  color: var(--press-state);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.logo {
+  margin-right: 100px;
+}
+
+.nav-contacts {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.nav-contacts > li:hover,
+.nav-contacts > li:active {
+  color: var(--press-state);
+  cursor: pointer;
+}
